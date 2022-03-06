@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./484-2-62ca1c378dc840a065cc2093f105971a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.top{
+    width: 500px;
+    /* filter: brightness(200%); */
+    /* brightness => yorug'lik | rasmdagi yorug'likni kuchaytiradi */
+    /* brightness boshlang'ich 100% kam ham yozsa bo'ladi ko'p ham */
+
+    /* filter: grayscale(1); */
+    /* grayscale => rasmni oq qora qilib qo'yadi */
+    /* grayscale boshlang'ich 0 maksimal 1  */
+
+    /* filter: blur(4px); */
+    /* blur => elementni hiralashtiradi va hamisha px da beriladi */
+    /* blur boshlang'5ich 0 maksimal cheksiz */
+
+    /* filter: sepia(100); */
+    /* sepia => rasmni sarg'ish qilib beradi */
+    /* sepia boshlang'ichi 0% maksimal 100% */
+
+    /* filter: invert(100%); */
+    /* invert bu huddi rengenga o'xshab rasmni o'gartiradi */
+    /* invert boshlang'ich 0 maksimal 100 */
+
+    /* filter: drop-shadow(0px 0px 10px red); */
+    /* box-shadow: 0px 0px 10px red; */
+    /* drop-shadow box-shadowga o'xshash lekin ko;proq tarqaladi */
+
+    /* filter: contrast(900%); */
+    /* contrast => yorqin va qoramtir ranglarni yanada yorqinroq qiladi */
+    /* contrast boshlang'ich 0 max cheksiz */
+
+    /* filter: saturate(100%); */
+    /* saturate qizg'ish va sarg'ish ranglarni yorqinlashtiradi */
+    /* saturate boshlang'ich 100% maksimalcheksiz */
+
+    /* filter: hue-rotate(280deg); */
+    /* hue-rotate ranlar aylanasidan ma'lumbir gradusdagi rangni tanlaydi va rasmni shu asnoda o'zgartiradi */
+    /* hue-rotate faqat deg da beriladi */
+
+    /* filter: opacity(0.2); */
+    /* opacity rasmni tiniqlik darajasini boshqaradi */
+    /* opacity eng minimal 0 eng maksimal 1 */
+}
